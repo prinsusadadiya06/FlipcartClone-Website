@@ -1,0 +1,23 @@
+
+
+
+.background {
+    background-color: white;
+}
+
+.space {
+    margin: 30px 0;
+}
+.text{
+    margin-top: 90px;
+}
+.image img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.image img:hover {
+    transform: scale(1.1);
+    /* zoom effect */
+    opacity: 0.8;
+    /* slightly transparent */
+    cursor: pointer;
+}
