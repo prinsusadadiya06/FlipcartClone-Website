@@ -6,11 +6,11 @@ import Home from './Home';
 import Mobileproduct from './Mobileproduct'
 import Login from './Login'
 import Becomeaseller from './Becomeaseller'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Singlecomponent from './Singlecomponent'
 
 
-let allproduct = createBrowserRouter([
+let allproduct = createHashRouter([
   {
     path: "/",
     element: <Home />,
