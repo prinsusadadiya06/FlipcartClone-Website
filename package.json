@@ -1,15 +1,16 @@
 {
-  "homepage": "https://github.com/prinsusadadiya15/Flipcart-Website-Template#readme",
+  "homepage": "https://github.com/prinsusadadiya06/FlipcartClone-Website",
   "name": "shopping_app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
